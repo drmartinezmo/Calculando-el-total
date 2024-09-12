@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 75%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form,
+.result {
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+}
+
+p {
+    width: 100%;
+    text-align: justify;
+}
+
+img {
+    width: 65%;
+}
+
+.botones {
+    display: flex;
+}
+.cantidad {
+    padding-right: 0.5rem;
+}
+
+input,
+button {
+    width: 10%;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgb(233, 153, 4);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+button:hover {
+    background-color: #9f9f9f;
+    color: #000;
+}
+
+.form {
+    background-color: #4c9c33;
+    color: #ffffff;
+}
+
+.form div {
+    width: 100%;
+}
+
+.oferta {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#precio {
+    color: #d7fe01;
+}
+
+.normal {
+    color: #ffffff;
+}
